@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*body p {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 24px;
+    text-align: justify;    
+}*/
+
+/*body h2 {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 24px;
+    
+}*/
+
+/* Centrar todos los elementos */
+body {
+    text-align: justify;
+    margin: 300px;
+}
+  
+  /* Centrar imágenes y videos */
+  img,
+  iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+body iframe {
+    padding-left: 400px;
+}
+
+body img {
+    padding-left: 400px;
+}
+*/
+body div img {
+    width: 80%;
+}
+
+header {
+    width: 93%;
+    height: 100vh;
+    color: white;
+    background-size: scale;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/images/header_background.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    /* Estilos para dispositivos móviles en posición vertical (Portrait) */
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    /* Estilos para dispositivos móviles en posición horizontal (Landscape) */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+} 
